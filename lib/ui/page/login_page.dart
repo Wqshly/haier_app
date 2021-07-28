@@ -55,7 +55,9 @@ class _NormalLoginPage extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       child: Column(
         mainAxisSize: MainAxisSize.max,
-        children: <Widget>[],
+        children: <Widget>[
+          const SizedBox()
+        ],
       ),
     );
   }
